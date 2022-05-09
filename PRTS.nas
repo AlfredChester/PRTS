@@ -54,7 +54,7 @@ fin:
 
 msg:
 		DB		0x0a, 0x0a		; 2个换行
-		DB		"PRTS initing..."
+		DB		"PRTS initing....."
 		DB		0x0a			; 换行
 		DB		0
 
