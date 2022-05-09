@@ -54,11 +54,8 @@ fin:
 
 msg:
 		DB		0x0a, 0x0a		; 2个换行
-		DB		"PRTS initing"
+		DB		"PRTS initing..."
 		DB		0x0a			; 换行
-		DB      "Serving for Doctor and his wife -> ID:0x7dfe name:kaltsit"
-		DB 		0x0a
-		DB 		"identity veryfied"
 		DB		0
 
 		RESB	0x7dfe-$		; 填写0x00 直到0x07dfe的地址
