@@ -1,4 +1,4 @@
-; Primitive Rhodesisland Terminal Service 
+; Primitive Rhodesisland Terminal System
 ; Version:0.0.2
 ; TAB = 4
 
@@ -54,7 +54,7 @@ fin:
 
 msg:
 		DB		0x0a, 0x0a		; 2个换行
-		DB		"PRTS initing....."
+		DB		"Fuck you!"
 		DB		0x0a			; 换行
 		DB		0
 
