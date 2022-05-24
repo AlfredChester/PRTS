@@ -1,5 +1,7 @@
 © AD.2022-TR.1098 Rhodes Island Pharmaceutical Inc.,Ltd. 
 All rights reserved.
+
+
 This Terminal Service System is almost fully writen by Dr.Alfred,and is owned by Rhodes Island.
 You must agree the following three eulas:
 1.You must not copy or spread this system without my permission.
