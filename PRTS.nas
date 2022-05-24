@@ -24,7 +24,7 @@
         DB 	    0,0,0x29	   ; damedane
         DD      0xffffffff     ; 卷标号码
         DB      "PRTS-DISK  "  ; 磁盘名称(11字节)
-        DB      "FAT12   "     ; 磁盘格式名称(8字节)
+        DB      "FAT32   "     ; 磁盘格式名称(8字节)
         RESB    18			   ; 空出18字节
 
 ; 程序核心
@@ -54,7 +54,7 @@ fin:
 
 msg:
         DB		0x0a, 0x0a		; 2个换行
-        DB		"Fuck you!"
+        DB		"Fuck you!Damn it"
         DB		0x0a			; 换行
         DB		0
 
@@ -64,7 +64,7 @@ msg:
 
 ; 启动区部分之外的输出
 
-        DB		0xf0, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00
+        DB      0xf0, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00
         RESB	4600
-        DB		0xf0, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00
+        DB	    0xf0, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00, 0x00
         RESB	1469432
