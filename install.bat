@@ -1,1 +1,1 @@
-..\z_tools\imgtol.com w a: helloos.img
+X:\OS\30天自制操作系统\tolset\z_tools\imgtol.com w a: helloos.img
