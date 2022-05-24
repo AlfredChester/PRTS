@@ -54,7 +54,7 @@ fin:
 
 msg:
         DB		0x0a, 0x0a		; 2个换行
-        DB		"Fuck you!Damn it"
+        DB		"PRTS_Version:0.0.2"
         DB		0x0a			; 换行
         DB		0
 
