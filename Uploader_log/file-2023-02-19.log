@@ -1,66 +1,13 @@
-2023-02-19 08:52:55.090 | INFO     | __main__:main:76 - 欢迎来到Git上传工具 v2.0
-2023-02-19 08:52:55.175 | INFO     | __main__:main:81 - 当前分支: master
-2023-02-19 08:52:55.176 | INFO     | __main__:main:82 - 其他分支: []
-2023-02-19 08:52:57.724 | INFO     | __main__:findCommits:58 - On branch master
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 - Your branch is up to date with 'origin/master'.
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 - 
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 - Changes to be committed:
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 -   (use "git restore --staged <file>..." to unstage)
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 - 	new file:   .DS_Store
-2023-02-19 08:52:57.725 | INFO     | __main__:findCommits:58 - 	deleted:    .vscode/Bookmark.bcat
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	deleted:    .vscode/CatStatus.bcat
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	deleted:    .vscode/launch.json
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	deleted:    .vscode/settings.json
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	deleted:    .vscode/tasks.json
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	new file:   Git_Uploader.py
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	new file:   LICENSE
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	deleted:    LISENCE.txt
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	new file:   Operating_Systems_From_0_to_1.pdf
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	new file:   PRTS.png
-2023-02-19 08:52:57.726 | INFO     | __main__:findCommits:58 - 	new file:   "Startup/StartupSoundChanger\357\274\210\345\274\200\346\234\272\351\237\263\346\225\210\350\275\257\344\273\266\357\274\211.zip"
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   Startup/login.wav
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   Startup/logo.bmp
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   Startup/terminal.jpg
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   Startup/terminal.psd
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   Uploader_log/file-2023-02-19.log
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	new file:   asset.pptx
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	modified:   md/README.md
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 	deleted:    "\350\216\261\350\214\265\347\224\237\345\221\275PPT\346\250\241\346\235\277.rar"
-2023-02-19 08:52:57.727 | INFO     | __main__:findCommits:58 - 
-2023-02-19 08:52:57.728 | INFO     | __main__:main:96 - 更改过的文件: ['.DS_Store', ' .vscode/Bookmark.bcat', ' .vscode/CatStatus.bcat', ' .vscode/launch.json', ' .vscode/settings.json', ' .vscode/tasks.json', 'Git_Uploader.py', 'LICENSE', ' LISENCE.txt', 'Operating_Systems_From_0_to_1.pdf', 'PRTS.png', '"Startup/StartupSoundChanger\\357\\274\\210\\345\\274\\200\\346\\234\\272\\351\\237\\263\\346\\225\\210\\350\\275\\257\\344\\273\\266\\357\\274\\211.zip"', 'Startup/login.wav', 'Startup/logo.bmp', 'Startup/terminal.jpg', 'Startup/terminal.psd', 'Uploader_log/file-2023-02-19.log', 'asset.pptx', 'md/README.md', ' "\\350\\216\\261\\350\\214\\265\\347\\224\\237\\345\\221\\275PPT\\346\\250\\241\\346\\235\\277.rar"']
-2023-02-19 08:52:57.728 | INFO     | __main__:main:102 - Decoded: ./.DS_Store
-2023-02-19 08:53:04.300 | INFO     | __main__:main:102 - Decoded: ./.vscode/Bookmark.bcat
-2023-02-19 08:53:15.332 | INFO     | __main__:main:102 - Decoded: ./.vscode/CatStatus.bcat
-2023-02-19 08:53:19.891 | INFO     | __main__:main:102 - Decoded: ./.vscode/launch.json
-2023-02-19 08:53:23.975 | INFO     | __main__:main:102 - Decoded: ./.vscode/settings.json
-2023-02-19 08:53:27.024 | INFO     | __main__:main:102 - Decoded: ./.vscode/tasks.json
-2023-02-19 08:53:29.245 | INFO     | __main__:main:102 - Decoded: ./Git_Uploader.py
-2023-02-19 08:53:48.369 | INFO     | __main__:main:102 - Decoded: ./LICENSE
-2023-02-19 08:53:52.834 | INFO     | __main__:main:102 - Decoded: ./LISENCE.txt
-2023-02-19 08:53:55.869 | INFO     | __main__:main:102 - Decoded: ./Operating_Systems_From_0_to_1.pdf
-2023-02-19 08:54:00.424 | INFO     | __main__:main:102 - Decoded: ./PRTS.png
-2023-02-19 08:54:11.984 | INFO     | __main__:main:102 - Decoded: ./Startup/StartupSoundChanger（开机音效软件）.zip
-2023-02-19 08:54:17.368 | INFO     | __main__:main:102 - Decoded: ./Startup/login.wav
-2023-02-19 08:54:19.972 | INFO     | __main__:main:102 - Decoded: ./Startup/logo.bmp
-2023-02-19 08:54:23.104 | INFO     | __main__:main:102 - Decoded: ./Startup/terminal.jpg
-2023-02-19 08:54:24.769 | INFO     | __main__:main:102 - Decoded: ./Startup/terminal.psd
-2023-02-19 08:54:25.811 | INFO     | __main__:main:102 - Decoded: ./Uploader_log/file-2023-02-19.log
-2023-02-19 08:54:29.319 | INFO     | __main__:main:102 - Decoded: ./asset.pptx
-2023-02-19 08:54:32.404 | INFO     | __main__:main:102 - Decoded: ./md/README.md
-2023-02-19 08:54:32.951 | INFO     | __main__:main:102 - Decoded: ./莱茵生命PPT模板.rar
-2023-02-19 08:54:51.202 | INFO     | __main__:<module>:117 - Program exited
-2023-02-19 08:55:14.490 | INFO     | __main__:main:76 - 欢迎来到Git上传工具 v2.0
-2023-02-19 08:55:14.521 | INFO     | __main__:main:81 - 当前分支: master
-2023-02-19 08:55:14.521 | INFO     | __main__:main:82 - 其他分支: []
-2023-02-19 08:55:14.914 | INFO     | __main__:findCommits:58 - On branch master
-2023-02-19 08:55:14.915 | INFO     | __main__:findCommits:58 - Your branch is up to date with 'origin/master'.
-2023-02-19 08:55:14.915 | INFO     | __main__:findCommits:58 - 
-2023-02-19 08:55:14.915 | INFO     | __main__:findCommits:58 - Changes to be committed:
-2023-02-19 08:55:14.915 | INFO     | __main__:findCommits:58 -   (use "git restore --staged <file>..." to unstage)
-2023-02-19 08:55:14.916 | INFO     | __main__:findCommits:58 - 	new file:   .gitignore
-2023-02-19 08:55:14.916 | INFO     | __main__:findCommits:58 - 	deleted:    Uploader_log/file-2023-02-19.log
-2023-02-19 08:55:14.916 | INFO     | __main__:findCommits:58 - 	modified:   md/README.md
-2023-02-19 08:55:14.916 | INFO     | __main__:findCommits:58 - 
-2023-02-19 08:55:14.916 | INFO     | __main__:main:96 - 更改过的文件: ['.gitignore', ' Uploader_log/file-2023-02-19.log', 'md/README.md']
-2023-02-19 08:55:14.916 | INFO     | __main__:main:102 - Decoded: ./.gitignore
-2023-02-19 08:55:20.743 | INFO     | __main__:main:102 - Decoded: ./Uploader_log/file-2023-02-19.log
+2023-02-19 08:55:36.259 | INFO     | __main__:main:76 - 欢迎来到Git上传工具 v2.0
+2023-02-19 08:55:36.291 | INFO     | __main__:main:81 - 当前分支: master
+2023-02-19 08:55:36.292 | INFO     | __main__:main:82 - 其他分支: []
+2023-02-19 08:55:36.828 | INFO     | __main__:findCommits:58 - On branch master
+2023-02-19 08:55:36.829 | INFO     | __main__:findCommits:58 - Your branch is up to date with 'origin/master'.
+2023-02-19 08:55:36.829 | INFO     | __main__:findCommits:58 - 
+2023-02-19 08:55:36.830 | INFO     | __main__:findCommits:58 - Changes to be committed:
+2023-02-19 08:55:36.830 | INFO     | __main__:findCommits:58 -   (use "git restore --staged <file>..." to unstage)
+2023-02-19 08:55:36.830 | INFO     | __main__:findCommits:58 - 	modified:   Uploader_log/file-2023-02-19.log
+2023-02-19 08:55:36.830 | INFO     | __main__:findCommits:58 - 	modified:   md/README.md
+2023-02-19 08:55:36.830 | INFO     | __main__:findCommits:58 - 
+2023-02-19 08:55:36.830 | INFO     | __main__:main:96 - 更改过的文件: ['Uploader_log/file-2023-02-19.log', 'md/README.md']
+2023-02-19 08:55:36.831 | INFO     | __main__:main:102 - Decoded: ./Uploader_log/file-2023-02-19.log
