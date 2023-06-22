@@ -1,1 +1,1 @@
-X:\OS\30天自制操作系统\tolset\z_tools\nask.exe PRTS.nas PRTS.img
+X:\OS\30澶╄嚜鍒舵搷浣滅郴缁焅tolset\z_tools\nask.exe PRTS.nas PRTS.img
