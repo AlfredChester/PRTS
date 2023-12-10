@@ -1,5 +1,5 @@
 [package]
-name = "PRTS_OS"
+name = "prts"
 version = "0.1.0"
 edition = "2018"
 authors = ["Alfred <abonlinejudge@163.com>"]
@@ -7,6 +7,7 @@ authors = ["Alfred <abonlinejudge@163.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bootloader = "0.9.23"
 
 [profile.dev]
 panic = "abort"
