@@ -1,1 +1,3 @@
-Uploader_log\*
+/target
+
+.DS_Store
