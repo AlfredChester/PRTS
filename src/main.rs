@@ -8,9 +8,8 @@ use core::panic::PanicInfo;
 #[no_mangle]
 // entry of the operating system
 pub extern "C" fn _start() -> ! {
-    use core::fmt::Write;
     for i in 0..=10000 {
-        write!(vga_buffer::WRITER.lock(), "{}\n", i).unwrap()
+        println!("{}", i);
     }
     loop {}
 }
