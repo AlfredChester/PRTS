@@ -44,7 +44,7 @@ const BUFFER_WIDTH: usize = 18;
 
 #[repr(transparent)]
 struct Buffer {
-    chars: [[Volatile<ScreenChar>; BUFFER_HEIGHT]; BUFFER_HEIGHT],
+    chars: [[Volatile<ScreenChar>; BUFFER_WIDTH]; BUFFER_HEIGHT],
 }
 
 pub struct Writer {
@@ -97,11 +97,12 @@ impl Writer {
     }
 
     fn clear_row(&mut self, row: usize) {
+        let blank = ScreenChar {
+            ascii_character: b' ',
+            color_code: self.color_code,
+        };
         for col in 0..BUFFER_WIDTH {
-            self.buffer.chars[row][col].write(ScreenChar {
-                ascii_character: b' ',
-                color_code: self.color_code,
-            })
+            self.buffer.chars[row][col].write(blank)
         }
     }
 }
