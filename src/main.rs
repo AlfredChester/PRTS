@@ -9,11 +9,9 @@ use core::panic::PanicInfo;
 // entry of the operating system
 pub extern "C" fn _start() -> ! {
     use core::fmt::Write;
-    for i in 'a'..'z' {
-        write!(vga_buffer::WRITER.lock(), "{}", i).unwrap()
+    for i in 0..=10000 {
+        write!(vga_buffer::WRITER.lock(), "{}\n", i).unwrap()
     }
-    // write!(vga_buffer::WRITER.lock(), "{} Hello World", '\n').unwrap();
-    // write!(vga_buffer::WRITER.lock(), "114514 numbers: {}", 1919810).unwrap();
     loop {}
 }
 
